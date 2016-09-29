@@ -111,10 +111,6 @@ APP+环境+版本+ZK查询：
 
 ![http://ww1.sinaimg.cn/mw1024/60c9620fgw1emyww39wjmj20qw0keq6m.jpg](http://ww1.sinaimg.cn/mw1024/60c9620fgw1emyww39wjmj20qw0keq6m.jpg)
 
-#### 其它开源的disconf-web：
-
-- https://github.com/comlkz/disconf-web
-
 ### java client Tutorials ###
 
 #### 总体概述
@@ -140,6 +136,10 @@ APP+环境+版本+ZK查询：
 
 - [Tutorial 8 基于XML的分布式配置文件管理,自动reload ](https://github.com/knightliao/disconf/wiki/Tutorial8)
 - [Tutorial 5 基于XML的分布式配置文件管理,不会自动reload,对于那些比较重的资源如jdbc等，特别有用](https://github.com/knightliao/disconf/wiki/Tutorial5)
+
+#### demos
+
+[https://github.com/knightliao/disconf-demos-java](https://github.com/knightliao/disconf-demos-java)
 
 #### 其它
 
@@ -181,8 +181,7 @@ APP+环境+版本+ZK查询：
 
 ## 群·联系·讨论
 
-- disconf技术QQ群: 239203866 
-- disconf技术QQ二群: 280712860
+- disconf技术QQ群: 239203866 ; disconf技术QQ二群: 280712860
 - [媒体报道与网友教程](https://github.com/knightliao/disconf/wiki/%E5%AA%92%E4%BD%93%E6%8A%A5%E9%81%93%E4%B8%8E%E7%BD%91%E5%8F%8B%E6%95%99%E7%A8%8B)
 
 ## 关于
