@@ -296,6 +296,11 @@ public class ConfigMgrImpl implements ConfigMgr {
 
         Properties prop = new Properties();
         try {
+            //补坑的方式。原因还是由于CodeUtils 中 UTF-8 与 Unicode 转换的问题。
+            //原作者的代码不能支持配置中中有 \ 或 文件有\ufeff 开头的问题。
+            //但使用 StringEscapeUtils.escapeJava 的方式，又导致了 \n 被转成了字符?
+            dbData = dbData.replaceAll("\n","\r\n");
+            dbData = dbData.replaceAll("\\\\n","\r\n");
             prop.load(IOUtils.toInputStream(dbData));
         } catch (Exception e) {
             LOG.error(e.toString());
